@@ -1,106 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 body {
-    font-family: 'Nunito Sans', sans-serif;
-    width: 100%;
-    content: center;
-    -webkit-overflow-scrolling: touch;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 100%;
+  content: center;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Navigation Bar */
 .navbar {
-    width: 100%;
+  width: 100%;
 }
 .navbar-nav {
-    margin-left: 30%;
-    font-size: 16px;
+  margin-left: 30%;
+  font-size: 16px;
 }
 .navbar-nav > li{
-    margin-left:35px;
-    margin-right:35px;
+  margin-left:35px;
+  margin-right:35px;
 }
 .nav-link {
-    font-weight: 500;
-    color: black;
-    font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(165, 165, 165)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(165, 165, 165)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 /* Cusom Toggler */
 .custom-toggler.navbar-toggler {
-    border-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    background-color: rgb(235, 235, 235);
+  border-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  background-color: rgb(235, 235, 235);
 }
 /* Modal for navbar collapse */
 .modal-nav-content {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 .modal {
-    background-color: white;
+  background-color: white;
 }
 .modal-nav-body {
-    margin-top: 100px; 
+  margin-top: 100px; 
 }
 .modallink  {
-    color: #2e3192;
+  color: #2e3192;
 }
+
 .modal-nav-body ul {
-    list-style-type: none;
-    color: black;
-    margin: 25;
-    padding: 0;
-    width: 100%;
+  list-style-type: none;
+  color: black;
+  margin: 25;
+  padding: 25;
+  width: 100%;
 }
 .modal-nav-body ul li {
-    text-align: center;
-    font-size: 130%;
-    padding: 8px;
-    text-transform: uppercase;
+  padding: 8px;
 }
+#nav-heading-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #8f8f8f;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#nav-sublist {
+  margin-left: 25px;
+}
+#nav-subheading-title {
+  font-size: 16px;
+  color: rgb(2, 0, 31);
+  font-weight: 500;
+}
+
+
 /* <-- Body --> */ 
 /* Name + Title */
 .profileimage {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 .col-sm-8 {
-    text-align: left;
+  text-align: left;
 }
 #nameintro {
-    margin-top: 15%;
-    font-size: 40px; 
-    letter-spacing: 1px;
-    color: black;
-    font-family: 'Nunito Sans', sans-serif;
+  margin-top: 15%;
+  font-size: 40px; 
+  letter-spacing: 1px;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .underline {
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    -webkit-text-decoration-color: rgba(255, 217, 0, 0.899); /* Safari */   
-    text-decoration-color:  rgba(255, 217, 0, 0.899);
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: rgba(255, 217, 0, 0.899); /* Safari */   
+  text-decoration-color:  rgba(255, 217, 0, 0.899);
 }
 #jobtitle {
-    font-size: 20px;
-    color: black;
-    letter-spacing: 0.5px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.5px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
 }
 /* Social links */
 .firstsocial {
-    padding-right:25px; 
-    padding-left:10%;
+  padding-right:25px; 
+  padding-left:10%;
 }
 .fa-linkedin {
-    font-size: 22px;
+  font-size: 22px;
 }
 .fa-github {
-    font-size: 28px;
+  font-size: 28px;
 }
 .fa-envelope {
-    font-size: 21px;
+  font-size: 21px;
 }
 /* Projects */
 #projectstitle h1 {
@@ -404,7 +419,6 @@ body {
   color: black;
   margin-left: 10px;
 }
-
 
 /* <---------- Media Screens ----------> */
 /* For all non-projects tab content */

@@ -38,7 +38,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#experience">Experience</a>
@@ -58,9 +58,10 @@
     <div class="modal-nav-content">
       <div class="modal-nav-body">
         <ul>
-          <li><a class="modallink" href="#">Projects</a></li>
-          <li><a class="modallink" href="#">Experience</a></li>
-          <li><a class="modallink" href="#">Resume</a></li>
+          <li><a id="nav-heading-title">PROJECTS</a></li>
+          <li id="nav-sublist"><a id="nav-subheading-title" href="https://harsha-payidiparty.github.io/#projects">Octagon Data Science Competition</a></li>
+          <li><a id="nav-heading-title" href="https://harsha-payidiparty.github.io/#experience">EXPERIENCE</a></li>
+          <li><a id="nav-heading-title" href="https://harsha-payidiparty.github.io/HarshaPayidipartyResume.pdf">RESUME</a></li>
         </ul>
       </div>
     </div>
@@ -69,7 +70,6 @@
 <!-- Intro Content -->
 <div class="container">
   <div class="row text-center padding">
-    
     <div class="col-sm-4">
       <img class="profileimage" src="profile-pic2.png" width="90%" height="auto" >
     </div>
@@ -84,7 +84,6 @@
         <i class="fa fa-github fa-2x" style="color:#9b9b9b;"></i></a>
       <a style="padding-left:25px;" href="mailto:harsha.payidiparty@gmail.com" target="_top">
         <i class="fa fa-envelope fa-2x" style="color:#9b9b9b;"></i></a>
-      <!--Resume link-->
       <br>
     </div>
   </div>
@@ -115,7 +114,7 @@
 <!-- Projects -->
 <div class="tabs">
   <div id="projectstitle" class="container">
-    <div class="row text-center">
+    <div id="projects" class="row text-center">
       <div class="col-12">
         <h1>Projects &amp; Competitions</h1>
       </div>
@@ -162,163 +161,167 @@
   </div>
 </div>
 
+<!-- Profile Summary  Content -->
+<section>
+  <div id="experience" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 id="maintitle">Experience</h1>
+        <hr>
+        <br>
+        Ever wondered what pushes technology and how critical business decisions are made in large companies?
+        Well that is what grew my interest in Data Science. Starting in the Computer
+        Science program at the University of Toronto
+        gave me an understanding of programming principles and the SDLC. However, I wanted to know be more connected
+        to the product
+        and the business. Which is why I looked into the field of Data Science. I transferred to the
+        Business Technology Management program at Seneca College in pursuit of becoming closer to the business aspect
+        of engineering. </p>
+        <p>
+          Previously, I worked as a Software Developer Intern at <span class="bmo"><b>BMO </b></span> working on the
+          Credit Risk Technology team (Scroll down to see more about the role). I’m always
+          curious and love challenges! With data being one of the leading commodities in the 21st century, I’m
+          committed
+          to make an impact and explore this commodity deeper!
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
-  <!-- Profile Summary  Content -->
-  <section>
-    <div id="experience" class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 id="maintitle">Experience</h1>
-          <hr>
-          <br>
-          Ever wondered what pushes technology and how critical business decisions are made in large companies?
-          Well that is what grew my interest in Data Science. Starting in the Computer
-          Science program at the University of Toronto
-          gave me an understanding of programming principles and the SDLC. However, I wanted to know be more connected
-          to the product
-          and the business. Which is why I looked into the field of Data Science. I transferred to the
-          Business Technology Management program at Seneca College in pursuit of becoming closer to the business aspect
-          of engineering. </p>
-          <p>
-            Previously, I worked as a Software Developer Intern at <span class="bmo"><b>BMO </b></span> working on the
-            Credit Risk Technology team (Scroll down to see more about the role). I’m always
-            curious and love challenges! With data being one of the leading commodities in the 21st century, I’m
-            committed
-            to make an impact and explore this commodity deeper!
+<!-- Experience Description  -->
+<section>
+  <div class="co-12">
+    <div class="timeline">
+      <div class="box left">
+        <div id="job-datascientist" class="content">
+          <img src="img/rbc.jpg" class="companyimage">
+          <h4>Data Scientist, Amplify</h4>
+          <p>Coming soon... </p>
+        </div>
+      </div>
+      <div id="job-bmo" name="job-bmo" class="box right">
+        <div class="content">
+          <img src="img/bmo.jpg" class="companyimage">
+          <h4>Software Developer, Infrastructure</h4>
+          <p>Created a technical document to share knowledge of Privileged Access Management (PAM) through <b
+            style="color: #00aaf8;">CyberArk</b> which is currently being used by the team (10 employees)</p>
+          <p>Architected release pipeline for <b style="color: #00aaf8;">UAT/SIT</b> to deploy production patches that involved <b style="color: #00aaf8;">15+</b> medium vulnerabilities </p>
+          <p>Developed a run log tool for the Credit Risk Infrastructure team using Microsoft <b
+              style="color: #00aaf8;">SQL</b> Server Integration Services (SSIS) which improved development efficiency by <b  style="color: #00aaf8;">25%</b> for field and entity additions in the <b style="color: #00aaf8;">ETL</b> pipelines </p>
+          <p>Coordinated between the software development team and application support testers to set up a Secure
+            Server Gateway (SSG) to allow remote access to a database for a specific Active Directory (AD) group </p>
+        </div>
+      </div>
+      <div class="box left">
+        <div id="job-jpl" class="content">
+          <img src="img/jpl.png" class="jpl">
+          <h4>Software Developer, Front-End</h4>
+          <p>Re-designed a fully responsive front-end with <b style="color: #00aaf8;">HTML/CSS</b> and <b
+              style="color: #00aaf8;">Javascript</b> using <b style="color: #00aaf8;">Bootstrap</b> components which
+            resulted in 1,027 unique visitors (78% increase) in one month</p>
+          <p>Optimized and <b style="color: #00aaf8;">A/B tested</b> cold emails that targeted various companies (B2B) based on location, product specialization, and product 
+            volume producing <b style="color: #00aaf8;">165</b> clickthrough’s to the company website, resulting in a <b style="color: #00aaf8;">4%</b> conversion rate</p>
+          <p>Created multiple forms that sends queries to a mail server through <b style="color: #00aaf8;">PHP</b> and
+            <b style="color: #00aaf8;">Javascript</b> that iteratively amended features and handled corner cases
+            according to user feedback
           </p>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
-
-  <!-- Experience Description  -->
-  <section>
-    <div class="co-12">
-      <div class="timeline">
-        <div class="box left">
-          <div class="content">
-            <img src="img/rbc.jpg" class="companyimage">
-            <h4>Data Scientist, Amplify</h4>
-            <p>Coming soon... </p>
-          </div>
+      <div class="box right">
+        <div id="job-cardsadvisor" class="content">
+          <img src="img/rbc.jpg" class="companyimage">
+          <h4>Cards Advisor</h4>
+          <p>Proactively recommended products and services to provide clients with tailored solutions to meet their
+            unique immediate and future financial needs </p>
+          <p><b style="color: #00aaf8;">Risk assessment</b> and implementation of procedures to ensure effective
+            security measures are being made to prevent fraudulent activity </p>
+          <p>Performed credit-related tasks, including balance transfers, credit limit increases and credit card
+            upgrades </p>
         </div>
-        <div class="box right">
-          <div class="content">
-            <img src="img/bmo.jpg" class="companyimage">
-            <h4>Software Developer, Infrastructure</h4>
-            <p>Created a technical document to share knowledge of Privileged Access Management (PAM) through <b
-              style="color: #00aaf8;">CyberArk</b> which is currently being used by the team (10 employees)</p>
-            <p>Architected release pipeline for <b style="color: #00aaf8;">UAT/SIT</b> to deploy production patches that involved <b style="color: #00aaf8;">15+</b> medium vulnerabilities </p>
-            <p>Developed a run log tool for the Credit Risk Infrastructure team using Microsoft <b
-                style="color: #00aaf8;">SQL</b> Server Integration Services (SSIS) which improved development efficiency by <b  style="color: #00aaf8;">25%</b> for field and entity additions in the <b style="color: #00aaf8;">ETL</b> pipelines </p>
-            <p>Coordinated between the software development team and application support testers to set up a Secure
-              Server Gateway (SSG) to allow remote access to a database for a specific Active Directory (AD) group </p>
-          </div>
-        </div>
-        <div class="box left">
-          <div class="content">
-            <img src="img/jpl.png" class="jpl">
-            <h4>Software Developer, Front-End</h4>
-            <p>Re-designed a fully responsive front-end with <b style="color: #00aaf8;">HTML/CSS</b> and <b
-                style="color: #00aaf8;">Javascript</b> using <b style="color: #00aaf8;">Bootstrap</b> components which
-              resulted in 1,027 unique visitors (78% increase) in one month</p>
-            <p>Optimized and <b style="color: #00aaf8;">A/B tested</b> cold emails that targeted various companies (B2B) based on location, product specialization, and product 
-              volume producing <b style="color: #00aaf8;">165</b> clickthrough’s to the company website, resulting in a <b style="color: #00aaf8;">4%</b> conversion rate</p>
-            <p>Created multiple forms that sends queries to a mail server through <b style="color: #00aaf8;">PHP</b> and
-              <b style="color: #00aaf8;">Javascript</b> that iteratively amended features and handled corner cases
-              according to user feedback
-            </p>
-          </div>
-        </div>
-        <div class="box right">
-          <div class="content">
-            <img src="img/rbc.jpg" class="companyimage">
-            <h4>Cards Advisor</h4>
-            <p>Proactively recommended products and services to provide clients with tailored solutions to meet their
-              unique immediate and future financial needs </p>
-            <p><b style="color: #00aaf8;">Risk assessment</b> and implementation of procedures to ensure effective
-              security measures are being made to prevent fraudulent activity </p>
-            <p>Performed credit-related tasks, including balance transfers, credit limit increases and credit card
-              upgrades </p>
-          </div>
-        </div>
-
-        <div class="box left">
-          <div class="content">
-            <img src="img/wmt.jpg" class="companyimage">
-            <h4>Order Support Associate</h4>
-            <p>Utilized data and <b style="color: #00aaf8;">analytics</b> to assess weekly purchase volumes,
-              trends, customer behavior and other future events with a profit maximization goal</p>
-            <p>Played a key role in launching home delivery services for the first store location in Canada through
-              implementing regional routes across the GTA for online grocery and merchandise delivery </p>
-            <p>Successfully reduced inventory holding costs by <b style="color: #00aaf8;">4%</b> and increased customer
-              fulfillment from <b style="color: #00aaf8;">96%</b> to <b style="color: #00aaf8;">98%</b> across a
-              four-month rollout period</p>
-
-          </div>
+      </div>
+      <div class="box left">
+        <div id="job-walmart" class="content">
+          <img src="img/wmt.jpg" class="companyimage">
+          <h4>Order Support Associate</h4>
+          <p>Utilized data and <b style="color: #00aaf8;">analytics</b> to assess weekly purchase volumes,
+            trends, customer behavior and other future events with a profit maximization goal</p>
+          <p>Played a key role in launching home delivery services for the first store location in Canada through
+            implementing regional routes across the GTA for online grocery and merchandise delivery </p>
+          <p>Successfully reduced inventory holding costs by <b style="color: #00aaf8;">4%</b> and increased customer
+            fulfillment from <b style="color: #00aaf8;">96%</b> to <b style="color: #00aaf8;">98%</b> across a
+            four-month rollout period</p>
         </div>
       </div>
     </div>
-    <br>
-  </section>
-
-  <!-- Education  Content -->
-  <section id="education">
-    <div id="tilt" class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 id="educationtitle">Education</h1>
-          <hr id="educationline">
-          <br>
-          <h4 style="color: white;">Seneca College</h4>
-          <p><b style="color: white;">BCom. Business Technology Management, Co-op</b><br> September 2018 - April 2022
-          </p>
-
-          <p><b style="color: white;">Awards</b><br>Presidents Honour List x2<br> BTM Entrance Scholarship $1000</p>
-          <p><b style="color: white;">Notable Courses<br></b>Data Analytics, Quantitative Decision Making, Business
-            Statistics, Structured/Unstructured Data Management (SQL), Fundamentals of Programming, Business Systems
-            Analysis and Design, Financial Accounting, Micro/Macro Economics, Business Finance, Privacy Issues in
-            Information Systems, Operations Management</p>
-          <p><b style="color: white;">Skills</b><br>
-            <b style="color: white;">Technical: </b>SQL, SAS, Excel, Python, C, Java, PHP, HTML/CSS<br>
-            <b style="color: white;">Data Science: </b>Linear Regression, Hypothesis Testing, Probability Distributions,
-            ANOVA, Decision Trees, Clustering (K-means)<br>
-            <b style="color: white;">Technologies: </b>Bootstrap, IntelliJ IDEA, Visual Studio, Git, Jupyter, WEKA
-          </p>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <!-- Contact Information -->
-  <section>
-    <div id="contact" class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 id="maintitle">Contact Me</h1>
-          <hr>
-          <br>
-          <p>Feel free to connect with me on Linkedin!</p>
-          <p>Email: <a href="mailto:harsha.payidiparty@gmail.com" target="_top">harsha.payidiparty@gmail.com</a></p>
-          <!-- <p><a href="#" target="_blank">Resume contact information</a></p> -->
-          <a id="bottomlinkedin" href='https://www.linkedin.com/in/harsha-payidiparty/' target="_blank">
-            <i class="fa fa-linkedin fa-2x"></i></a>
-          <a id="bottomgithub" href="https://github.com/harsha-payidiparty" target="_blank">
-            <i class="fa fa-github fa-2x"></i></a>
-          <br>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
+  </div>
   <br>
-  <br>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.slim.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="prism.js"></script>
+</section>
+
+<!-- Education  Content -->
+<section id="education">
+  <div id="tilt" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 id="educationtitle">Education</h1>
+        <hr id="educationline">
+        <br>
+        <h4 style="color: white;">Seneca College</h4>
+        <p><b style="color: white;">BCom. Business Technology Management, Co-op</b><br> September 2018 - April 2022
+        </p>
+
+        <p><b style="color: white;">Awards</b><br>Presidents Honour List x2<br> BTM Entrance Scholarship $1000</p>
+        <p><b style="color: white;">Notable Courses<br></b>Data Analytics, Quantitative Decision Making, Business
+          Statistics, Structured/Unstructured Data Management (SQL), Fundamentals of Programming, Business Systems
+          Analysis and Design, Financial Accounting, Micro/Macro Economics, Business Finance, Privacy Issues in
+          Information Systems, Operations Management</p>
+        <p><b style="color: white;">Skills</b><br>
+          <b style="color: white;">Technical: </b>SQL, SAS, Excel, Python, C, Java, PHP, HTML/CSS<br>
+          <b style="color: white;">Data Science: </b>Linear Regression, Hypothesis Testing, Probability Distributions,
+          ANOVA, Decision Trees, Clustering (K-means)<br>
+          <b style="color: white;">Technologies: </b>Bootstrap, IntelliJ IDEA, Visual Studio, Git, Jupyter, WEKA
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Contact Information -->
+<section>
+  <div id="contact" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 id="maintitle">Contact Me</h1>
+        <hr>
+        <br>
+        <p>Feel free to connect with me on Linkedin!</p>
+        <p>Email: <a href="mailto:harsha.payidiparty@gmail.com" target="_top">harsha.payidiparty@gmail.com</a></p>
+        <!-- <p><a href="#" target="_blank">Resume contact information</a></p> -->
+        <a id="bottomlinkedin" href='https://www.linkedin.com/in/harsha-payidiparty/' target="_blank">
+          <i class="fa fa-linkedin fa-2x"></i></a>
+        <a id="bottomgithub" href="https://github.com/harsha-payidiparty" target="_blank">
+          <i class="fa fa-github fa-2x"></i></a>
+        <br>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<br>
+<br>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.slim.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="prism.js"></script>
+<script>
+  window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> 
 </body>
 
 </html>
