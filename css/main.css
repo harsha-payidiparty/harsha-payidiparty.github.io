@@ -340,15 +340,18 @@ body {
   #dsimg1 {
     display:none;
   }
-}
+} 
 
-/* content */
+/* Content below projects */
 .col-12 h3 {
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 30px;
     text-align: left;
     font-family: 'Nunito Sans', sans-serif;
+}
+#maintitle{
+  margin-top: 75px;
 }
 #wordlinks {
     padding-bottom: 8px;
@@ -379,7 +382,10 @@ body {
 #educationline {
     background-color: #7b8d9f;
 }
-
+#educationtitle {
+  color: #00d4ff; 
+  padding-top: 20px;
+}
 .diagonal-box {
     background-color: #0e205f;
 } 
@@ -401,6 +407,7 @@ body {
 
 
 /* <---------- Media Screens ----------> */
+/* For all non-projects tab content */
 @media only screen and (max-width: 600px) {
     #nameintro {
         font-size: 30px; 
@@ -417,5 +424,14 @@ body {
     }
     .col-12 h3 {
       font-size: 24px;
+    }
+    #maintitle{
+      margin-top:65px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 300;
+    }
+    #educationtitle {
+      text-align: center;
     }
   }
