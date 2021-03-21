@@ -59,9 +59,9 @@
       <div class="modal-nav-body">
         <ul>
           <li><a id="nav-heading-title">PROJECTS</a></li>
-          <li id="nav-sublist"><a id="nav-subheading-title" href="https://harsha-payidiparty.github.io/#projects">Octagon Data Science Competition</a></li>
-          <li><a id="nav-heading-title" href="https://harsha-payidiparty.github.io/#experience">EXPERIENCE</a></li>
-          <li><a id="nav-heading-title" href="https://harsha-payidiparty.github.io/HarshaPayidipartyResume.pdf">RESUME</a></li>
+          <li id="nav-sublist"><a id="nav-subheading-title" href="#projects" onclick='return check()'>Octagon Data Science Competition</a></li>
+          <li><a id="nav-heading-title" href="https://harsha-payidiparty.github.io/#experience" onclick='return check()'>EXPERIENCE</a></li>
+          <li><a id="nav-heading-title" href="https://harsha-payidiparty.github.io/HarshaPayidipartyResume.pdf" target="_blank">RESUME</a></li>
         </ul>
       </div>
     </div>
@@ -315,13 +315,14 @@
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="prism.js"></script>
-<script>
-  window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+<script type='text/javascript'>
+
+  function check()
+  {
+      return false;
   }
-}
-</script> 
+  
+  </script>
 </body>
 
 </html>
