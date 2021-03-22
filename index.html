@@ -8,7 +8,8 @@
   <meta name="description"
     content="Welcome to my website! I'm currently a Software Developer with a passion for Data Science! If you would like to know more about my background, click on the profile tab in the top menu bar. ">
   <meta name="Harsha Payidiparty" content="">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <title>Harsha Payidiparty</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
@@ -24,21 +25,29 @@
   <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="harshap" data-description="Like what you read? Support me! " data-message="Thank you for visiting. Click here to support me!" data-color="#5F7FFF" data-position="" data-x_margin="18" data-y_margin="18"></script>
   -->
 </head>
-
 <body>
-<section id="background">
+
 <!-- Navigation -->
 <div class="container">
   <div class="row text-center padding">
     <nav class="navbar navbar-expand-lg navbar-light-bg">
+      <div id="darkmodebutton">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fa fa-moon"></i>
+          <i class="fa fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
       <button class="navbar-toggler ml-auto custom-toggler" data-toggle="modal" data-target="#nav-modal"
           aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a id="menulink" class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#experience">Experience</a>
@@ -84,18 +93,17 @@
       <!--Profile links -->
       <br>
       <a class="firstsocial" href='https://www.linkedin.com/in/harsha-payidiparty/' target="_blank">
-        <i class="fa fa-linkedin fa-2x" style="color:#9b9b9b;"></i></a>
+        <i class="fab fa-linkedin-in fa-2x" style="color:#9b9b9b;"></i></a>
       <a style="padding-left:25px; padding-right:25px;" href="https://github.com/harsha-payidiparty" target="_blank">
-        <i class="fa fa-github fa-2x" style="color:#9b9b9b;"></i></a>
+        <i class="fab fa-github fa-2x" style="color:#9b9b9b;"></i></a>
       <a style="padding-left:25px;" href="mailto:harsha.payidiparty@gmail.com" target="_top">
         <i class="fa fa-envelope fa-2x" style="color:#9b9b9b;"></i></a>
       <br>
     </div>
   </div>
   <br>
-  <hr>
+  <hr class="breakline">
 </div>
-</section>
 <!-- Brief Description -->
 <section>
   <div class="container">
@@ -103,8 +111,8 @@
       <div class="col-12">
         <h3>Hi there,</h3>
         <br>
-        <p>I'm currently a Data Scientist at <b>RBC</b> with Software Development experience at <b>BMO
-            </b> and <b>JP Laboratories! </b> If you would like to know more about my background, scroll down to view my experience and
+        <p>I'm currently a Data Scientist at <b class="boldtext">RBC</b> with Software Development experience at <b class="boldtext">BMO
+            </b> and <b class="boldtext">JP Laboratories! </b> If you would like to know more about my background, scroll down to view my experience and
           education.
           <!-- You can also download a copy
         of my resume. --> If you would like to chat with me regarding my past experience, Data Science or just about
@@ -159,7 +167,6 @@
             <button id="projectbutton"><a id="projectbuttontext" target="_blank" href="Octagon data set TKI 2020.xlsx">Data Set</a></button>
           </div>
         </div>
-
       <hr>
       </div>
     </div>
@@ -177,7 +184,7 @@
     <div class="row">
       <div class="col-12">
         <h1 id="maintitle">Experience</h1>
-        <hr>
+        <hr class="breakline">
         <br>
         Ever wondered what pushes technology and how critical business decisions are made in large companies?
         Well that is what grew my interest in Data Science. Starting in the Computer
@@ -201,7 +208,7 @@
 
 <!-- Experience Description  -->
 <section>
-  <div class="co-12">
+  <div class="col-12">
     <div class="timeline">
       <div class="box left">
         <div id="job-datascientist" class="content">
@@ -323,15 +330,15 @@
     <div class="row">
       <div class="col-12">
         <h1 id="maintitle">Contact Me</h1>
-        <hr>
+        <hr class="breakline">
         <br>
         <p>Feel free to connect with me on Linkedin!</p>
         <p>Email: <a href="mailto:harsha.payidiparty@gmail.com" target="_top">harsha.payidiparty@gmail.com</a></p>
         <!-- <p><a href="#" target="_blank">Resume contact information</a></p> -->
         <a id="bottomlinkedin" href='https://www.linkedin.com/in/harsha-payidiparty/' target="_blank">
-          <i class="fa fa-linkedin fa-2x"></i></a>
+          <i class="fab fa-linkedin-in fa-2x"></i></a>
         <a id="bottomgithub" href="https://github.com/harsha-payidiparty" target="_blank">
-          <i class="fa fa-github fa-2x"></i></a>
+          <i class="fab fa-github fa-2x"></i></a>
         <br>
       </div>
     </div>
@@ -344,5 +351,10 @@
 <script src="vendor/jquery/jquery.slim.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="prism.js"></script>
+<script>
+  document.getElementById('chk').addEventListener('change', function(event){
+  (event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
+});
+</script>
 </body>
 </html>
