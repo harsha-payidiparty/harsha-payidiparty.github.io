@@ -15,6 +15,8 @@ body {
 :root {
   --color-bg: #ffffff;
   --color-textcolor: black;
+  --color-mainheading: black;
+  --color-menutext: black;
   --color-boldtext: black;
   --color-breakline: rgb(241, 241, 241);
   --color-underline: rgba(255, 217, 0, 0.899);
@@ -34,6 +36,8 @@ body {
 [data-theme="dark"] {
   --color-bg: #2c2c2e;
   --color-textcolor: rgb(173, 173, 173);
+  --color-mainheading: #e4e4e4;
+  --color-menutext: #e4e4e4;
   --color-boldtext: #00aaf8;
   --color-underline: #2066fd;
   --color-tabsbg: #3a3a3d;
@@ -93,7 +97,7 @@ body {
 }
 .nav-link {
   font-weight: 500;
-  color: black;
+  color: var(--color-menutext);
   font-family: 'Nunito Sans', sans-serif;
 }
 .custom-toggler .navbar-toggler-icon {
@@ -175,6 +179,7 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
 }
+
 /* Social links */
 .firstsocial {
   padding-right:25px; 
@@ -242,7 +247,7 @@ body {
 .tabs ul li label {
   transition: all 0.3s ease-in-out;
   color: #929daf;
-  padding: 5px auto;
+  padding: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
@@ -459,6 +464,7 @@ body {
 }
 #maintitle{
   margin-top: 75px;
+  color: var(--color-mainheading);
 }
 #wordlinks {
     padding-bottom: 8px;
