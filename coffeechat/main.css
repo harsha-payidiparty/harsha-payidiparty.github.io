@@ -1,0 +1,65 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    /*font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background: #F7F8FA;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+
+/* Navigation Bar */
+#navlogo {
+    width: auto;
+    max-width: 100px;
+}
+
+.navbar {
+    margin-top: 0.5%;
+    margin-left: 3%;
+    font-weight: 600;
+    text-align: left;
+}
+
+.nav-link {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #5B6177;
+}
+
+.navbar-nav {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-size: 14px;
+}
+
+.btn-primary {
+    font-size: 14px;
+    background-color: #0B0702;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    margin-left: 800px;
+}
+.active a {
+    color: #20409A !important;
+    font-weight: boldest !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(4,164,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Cusom Toggler */
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(238, 246, 255);
+    border-radius: 50px;
+    background-color: rgb(238, 246, 255);
+}
+  

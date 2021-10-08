@@ -1,0 +1,73 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  /*font-family: 'Poppins', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  background: #F7F8FA;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.card {
+  box-shadow: rgba(46, 124, 240, 0.4) -5px 5px, rgba(46, 107, 240, 0.3) -10px 10px, rgba(46, 140, 240, 0.2) -15px 15px, rgba(46, 124, 240, 0.1) -20px 20px, rgba(46, 149, 240, 0.05) -25px 25px;
+  border: none;
+  margin-left: 37%;
+  margin-right: 37%;
+  margin-top: 8%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+#signin-text {
+  color: #1c2d6c;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#companyname {
+  color: #1c2d6c;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+#login_button{
+  margin-top: 40px;
+  background: #0E7BE0;
+  color: #F7F8FA;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  display: block;
+}
+
+#registration_button {
+  margin-top: 15px;
+  background: #020609;
+  color: #F7F8FA;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  display: block;
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid #D5D8DF;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+
+
