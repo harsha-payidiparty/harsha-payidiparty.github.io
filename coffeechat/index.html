@@ -28,13 +28,17 @@
 
 <!-- Registration Section -->
 <div id="registration_div" class="registration_div">
-  <h3>Register an account</h3>
-  <input type="email" placeholder="Email..." id="register_email" />
-  <input type="password" placeholder="Password..." id="register_password" />
-  
-  <button onclick="createaccount()">Register</button>
-  <button onclick="back_to_login()">Back to login</button>
+  <div class="card">
+    <div class="card-body">
+      <p id="register-text">Register an account</p>
+      <input type="email" placeholder="Enter your email..." id="register_email" />
+      <input type="password" placeholder="Create a password..." id="register_password" />
+      <button id="create_account_button" onclick="createaccount()">Register</button>
+      <button id="back_login_button" onclick="back_to_login()">Back to login</button>
+    </div>
+  </div>
 </div>
+
 
 <!-- Scripts -->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>

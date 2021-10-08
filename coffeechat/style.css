@@ -69,5 +69,47 @@ html,body {
   -moz-transition: 0.3s;
 }
 
+/** Registration CSS **/
+#register-text {
+  color: #1c2d6c;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 
+.registration_div input {
+  display: block;
+  border: 1px solid #D5D8DF;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+#create_account_button{
+  margin-top: 40px;
+  background: #0E7BE0;
+  color: #F7F8FA;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  display: block;
+}
+
+#back_login_button {
+  margin-top: 15px;
+  background: #020609;
+  color: #F7F8FA;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  display: block;
+}
 
