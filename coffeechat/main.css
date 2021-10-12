@@ -8,27 +8,26 @@ html,body {
     overflow-y: hidden;
   }
 
-
 /* Navigation Bar */
+
 #navlogo {
     width: auto;
     max-width: 100px;
+    margin-bottom: -10px;
 }
 
 .navbar {
-    margin-top: 0.5%;
-    margin-left: 3%;
+    margin-top: 1%;
     font-weight: 600;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-link {
-    margin-left: 10px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: #5B6177;
+    color: #0B0702;
+    letter-spacing: .4px;
+    line-height: 24px;
+    display: inline-block;
 }
 
 .navbar-nav {
@@ -37,13 +36,25 @@ html,body {
     font-size: 14px;
 }
 
+.navbar-nav>li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-comment-dots {
+    margin-right: 8px;
+    color: #0B0702;
+}
+#contactus {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
 .btn-primary {
     font-size: 14px;
     background-color: #0B0702;
     text-decoration: none;
     border: none;
     border-radius: 25px;
-    margin-left: 800px;
 }
 .active a {
     color: #20409A !important;

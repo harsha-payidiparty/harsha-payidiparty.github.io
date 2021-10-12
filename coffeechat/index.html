@@ -11,39 +11,59 @@
 
 <body>
 <!-- Login Section -->
-<div id="login-section">
-  <div id="login_div" class="main-div">
-    <div class="card">
-      <div class="card-body">
-        <p id="signin-text">Sign in to</p>
-        <p id="companyname">Coffee Chat</p>
-        <input type="email" placeholder="Email..." id="email_field" />
-        <input type="password" placeholder="Password..." id="password_field" />
-        <button id="login_button" onclick="login()">Login</button>
-        <button id="registration_button" onclick="registration()">Register</button>
+<div class="container">
+<div class="row padding">
+  <div class="col-md-12">
+    <div id="login-section">
+      <div id="login_div" class="main-div">
+        <div class="card">
+          <div class="card-body">
+            <p id="signin-text">Sign in to</p>
+            <p id="companyname">Coffee Chat</p>
+            <input type="email" placeholder="Email..." id="email_field" />
+            <input type="password" placeholder="Password..." id="password_field" />
+            <button id="login_button" onclick="login()">Login</button>
+            <button id="registration_button" onclick="registration()">Register</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+</div>
+
 
 <!-- Registration Section -->
-<div id="registration_div" class="registration_div">
-  <div class="card">
-    <div class="card-body">
-      <p id="register-text">Register an account</p>
-      <input type="email" placeholder="Enter your email..." id="register_email" />
-      <input type="password" placeholder="Create a password..." id="register_password" />
-      <button id="create_account_button" onclick="createaccount()">Register</button>
-      <button id="back_login_button" onclick="back_to_login()">Back to login</button>
+<div class="container">
+<div class="row padding">
+  <div class="col-md-12">
+    <div id="registration_div" class="registration_div">
+      <div class="card">
+        <div class="card-body">
+          <p id="register-text">Register an account</p>
+            <input type="text" placeholder="First name..." id="first_name"/>
+            <input type="text" placeholder="Last name..." id="last_name"/>
+            <input type="email" placeholder="Enter your email..." id="register_email" />
+            <input type="password" placeholder="Create a password..." id="register_password" />
+            <label for="avatar">Choose a profile picture:</label>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+            <button id="create_account_button" onclick="createaccount()">Register</button>
+            <button id="back_login_button" onclick="back_to_login()">Back to login</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+</div>
+
 
 
 <!-- Scripts -->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="firebase_auth.js"></script>
+  <script type="module" src="database.js"></script>
   <script src="index.js"></script>
+
 
 </body>
 </html>
