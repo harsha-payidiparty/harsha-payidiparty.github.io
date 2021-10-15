@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <title>Harsha Payidiparty</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- CSS for index.html -->
@@ -29,16 +29,23 @@
 </head>
 <body>
 
-<!-- start of dark-section -->
-<section id="dark-section"> 
 <!-- Navigation -->
 <div class="container">
   <div class="row text-center padding">
     <nav class="navbar navbar-expand-lg navbar-light-bg">
+      <div id="darkmodebutton">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fa fa-moon"></i>
+          <i class="fa fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
       <button class="navbar-toggler ml-auto custom-toggler" data-toggle="modal" data-target="#nav-modal"
           aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -76,12 +83,11 @@
     </div>
   </div>
 </div>
-
 <!-- Intro Content -->
 <div class="container">
   <div class="row text-center padding">
     <div class="col-sm-4">
-      <img class="profileimage" src="profile.png" width="90%" height="auto" >
+      <img class="profileimage" src="profile-pic2.png" width="90%" height="auto" >
     </div>
     <div class="col-sm-8">
       <p id="nameintro"><u class="underline">Harsha Payidiparty</u></p>
@@ -98,144 +104,81 @@
     </div>
   </div>
   <br>
+  <hr class="breakline">
 </div>
-</section>
-<!-- end of dark-section-->
-
-<!--Line-break after heading section --> 
-<div id="line-break">
-  <div id="line-break-after" class="container">
-    <div class="row">
-    </div>
-  </div>
-</div>  
-
-<!-- Intro Content -->
-<div class="container">
-  <div class="row text-center padding">
-    <div class="col-lg-12">
-      <div id="main-card" class="card">
-        <div id="main-card-body"  class="card-body">
-            <p>Data is one of the leading commodities in the 21st century. In order to develop something different from what already exists, 
-              one must make sense of the data and uncover meaningful trends. Analyzing such data requires statistical acuity, intellectual 
-              curiosity and the ability to derive actionable insights from processed data. </p>
-              <br>
-            <button type="button" class="btn btn-primary"><a id="blue-button" target="_blank" href="HarshaPayidipartyResume.pdf">Download Resume</a></button>
-            <button type="button" class="btn btn-primary" style="margin-left: 20px;"><a id="blue-button" href="">Send an Email</a></button>
-        </div>
-      </div>
-    </div>  
-  </div>
-</div>
-
-
 <!-- Brief Description -->
-<div class="container" style="margin-top: 100px;">
-  <div class="row">
-    <div class="col-12">
-      <h1 id="maintitle">Hi there! &#128075;&#127995;</h1>
-      <br>
-      <p>I'm currently a Data Scientist at RBC with Software Development experience at BMO
-         and JP Laboratories! If you would like to know more about my background, scroll down to view my experience and
-        education.
-        <!-- You can also download a copy
-      of my resume. --> If you would like to chat with me regarding my past experience, Data Science or just about
-        anything, you can find my contact details in the contact section at the bottom of this page!
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- Areas of Interest -->
-<div class="container" style="margin-top: 50px; margin-bottom: 125px;">
-  <div class="row text-center">
-    <div class="col-12">
-      <h1 id="maintitle">Areas of Interest</h1>
-      <hr class="breakline">
-      <br>
-    </div>
-    <div id="interest-subsection" class="col-md-4">
-      <img id="interest-icon" src="img/graph.png"> 
-      <p id="interest-title">Data Analytics</p>
-      <p id="interest-text">I love telling a story from data. Getting to the root of the problem and thinking of a solution.</p>
-    </div>
-    <div id="interest-subsection" class="col-md-4">
-      <img id="interest-icon" src="img/machine-learning.png"> 
-      <p id="interest-title">Machine Learning</p>
-      <p id="interest-text">The depth of ML can be extensive. I'm always challenging myself to keep on learning.</p>
-    </div>
-    <div id="interest-subsection" class="col-md-4">
-      <img id="interest-icon" src="img/web-programming.png"> 
-      <p id="interest-title">Web Development</p>
-      <p id="interest-text">As you can tell from this website. I enjoy front-end development as a hobby!</p>
-    </div>
-  </div>
-</div>
-
-<!--Line-break section --> 
-<div id="line-break">
-  <div id="line-break-section" class="container">
+<section>
+  <div class="container">
     <div class="row">
+      <div class="col-12">
+        <h3 id="maintitle" style="margin-top: 10px;">Hi there,</h3>
+        <br>
+        <p>I'm currently a Data Scientist at <b class="boldtext">RBC</b> with Software Development experience at <b class="boldtext">BMO
+            </b> and <b class="boldtext">JP Laboratories! </b> If you would like to know more about my background, scroll down to view my experience and
+          education.
+          <!-- You can also download a copy
+        of my resume. --> If you would like to chat with me regarding my past experience, Data Science or just about
+          anything, you can find my contact details in the contact section at the bottom of this page!
+        </p>
+      </div>
     </div>
   </div>
-</div>  
-
-
-<!-- Projects  -->
-<section id="projects">
-<div class="container" style="padding-bottom: 100px;">
-  <div class="row">
-    <div class="col-12">
-      <h1 id="projects-title">Projects</h1>
-      <br>
-    </div>
-
-    <div class="col-md-3">
-      <div id="projects-card" class="card">
-        <div class="card-body">
-          <p id="projects-category">DATA SCIENCE</p>
-          <h2 id="projects-subtitle">Octagon Competition</h2>
-          <p id="projects-description">Developed a regression model using Python (Scikit-learn) to see the proportion of the variance between 
-            variables such as age, obesity and gender with the effectiveness of the treatment (Survival Analysis)</p>
-          <a id="projects-read-more" target="_blank" href="OctagonSubmission.pdf">READ MORE - ></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div id="projects-card"  class="card">
-        <div class="card-body">
-          <p id="projects-category">DATA SCIENCE</p>
-          <h2 id="projects-subtitle">Space Missions EDA</h2>
-          <p id="projects-description">Exploratory data analysis of the space missions dataset from Kaggle. Used Seaborn and Matplotlib to visualize data
-            to extract insights.</p>
-          <a id="projects-read-more" target="_blank" href="https://github.com/harsha-payidiparty/Space-Missions/blob/master/Space%20Missions%20EDA.ipynb">READ MORE - ></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div id="projects-card"  class="card">
-        <div class="card-body">
-          <p id="projects-category">SOFTWARE DEVELOPMENT</p>
-          <h2 id="projects-subtitle">Personal Website</h2>
-          <p id="projects-description">Created this website using the Bootstrap framework with HTML,CSS and Javascript. Click below for source code. </p>
-          <a id="projects-read-more" target="_blank" href="https://github.com/harsha-payidiparty/harsha-payidiparty.github.io">READ MORE - ></a>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
+  <br>
 </section>
 
-<!--Line-break section --> 
-<div id="line-break">
-  <div id="line-break-section" class="container">
-    <div class="row">
+<!-- Projects -->
+<div id="projects" class="tabs">
+  <div id="projectstitle" class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1 id="maintitle">Projects &amp; Competitions</h1>
+      </div>
     </div>
   </div>
-</div>  
+  <input type="radio" id="tab1" name="tab-control" checked>
+  <input type="radio" id="tab2" name="tab-control">
+  <ul>
+    <li title="Features"><label for="tab1" role="button"><svg viewBox="0 0 24 24">
+          <path d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10H20C20,13.32 17.32,16 14,16A6,6 0 0,1 8,10A6,6 0 0,1 14,4C14.43,4 14.86,4.05 15.27,4.14L16.88,2.54C15.96,2.18 15,2 14,2M20.59,3.58L14,10.17L11.62,7.79L10.21,9.21L14,13L22,5M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82Z" />
+        </svg><br><span>Data Science</span></label></li>
+    <li title="Delivery Contents"><label for="tab2" role="button"><svg viewBox="0 0 24 24">
+          <path d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66 3.6,6.58L11.4 3,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88 20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69 22,10.96L21,11.54V16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13 2.32,11.14 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77 13.3,15.76 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z" />
+        </svg><br><span>Software Development</span></label></li>
+  </ul>
+  <div class="slider">
+    <div class="indicator"></div>
+  </div>
+  <div class="content">
+    <section>
+    <h2>Data Science</h2>
+    <div class="container">
+      <div class="row">
+        <div id="dsimg1" class="col-sm-2">
+          <img src="img/octagon.jpg" width="90%" height="auto" >
+        </div>
+        <div class="col-sm-10" style="margin-bottom: 5%;">
+          <h3 id="projectsubtitle">Octagon Data Science Competition</h3>
+          <p style="text-align: left;">Developed a linear regression model using Python (Scikit-learn) to see the proportion of the variance between variables such as age, obesity and gender with the effectiveness of the treatment (Survival Analysis)
+          </p>
+          <p style="text-align: left;">Created data visualizations using Matplotlib and Seaborn to analyze and derive insights/effectiveness of Sorafenib therapy on 
+            patient survival rates (<a target="_blank" href="https://www.utm.utoronto.ca/mbiotech/octagon-health-data-science-competition">Competition details</a>)
+          </p>
+          <p style="text-align: left;"><b>Technologies used:</b> Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn</p>
+          <div id="projectlinks">
+            <button id="projectbutton"><a id="projectbuttontext" target="_blank" href="OctagonSubmission.pdf">Report</a></button>
+            <button id="projectbutton"><a id="projectbuttontext" target="_blank" href="Octagon data set TKI 2020.xlsx">Data Set</a></button>
+          </div>
+        </div>
+      <hr>
+      </div>
+    </div>
+    </section>
+    <section>
+      <h2>Software Development</h2>
+      <p>Coming soon...</p>
+    </section>
+  </div>
+</div>
 
 <!-- Profile Summary  Content -->
 <section>
