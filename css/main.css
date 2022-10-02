@@ -30,6 +30,7 @@ body {
 #main-subtitle {
   font-size: 17px;
   letter-spacing: 0.25px;
+  width: 600px;
 }
 
 /* Social media links */
