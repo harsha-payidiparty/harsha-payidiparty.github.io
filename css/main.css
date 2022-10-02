@@ -55,3 +55,12 @@ body {
   color:rgb(74, 98, 125);
   padding-left: 25px;
 }
+
+
+/* <---------- Media Screens ----------> */
+/* For all non-projects tab content */
+@media only screen and (max-width: 600px) {
+  #main-subtitle {
+    width: 500px;
+  }
+}
