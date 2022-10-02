@@ -61,6 +61,6 @@ body {
 /* For all non-projects tab content */
 @media only screen and (max-width: 600px) {
   #main-subtitle {
-    width: 500px;
+    width: 400px;
   }
 }
